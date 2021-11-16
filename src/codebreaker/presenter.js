@@ -11,10 +11,10 @@ form.addEventListener("submit", (event) => {
 
   // const codebreaker = new Codebreaker(codigo.value)
   // codebreaker.adivinar(adivinar.value)
-  // pistas.innerHTML = codebreaker.pistas
+  // pistas.innerHTML = codebreaker.obtenerPistas()
   pistas.innerHTML = "! * - -"
 
-  // if (codebreaker.gano) {
+  // if (codebreaker.ganoElJuego()) {
     resultado.innerHTML = "Ganó"
   // }
 });

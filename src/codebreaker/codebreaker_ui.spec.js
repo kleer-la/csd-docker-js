@@ -34,5 +34,8 @@ describe("CodeBreaker", () => {
         adivinar('3158')
         expect(resultado() ).toEqual('Ganó')
     })
-
+    afterEach(() => {
+        document.querySelector("#pistas").innerHTML = "";
+        document.querySelector("#resultado").innerHTML = "";
+    });
 })
