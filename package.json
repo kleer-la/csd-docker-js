@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "test": "jest --watch",
-        "test-once": "jest",
-        "start": "parcel sumador.html",
-        "build": "parcel build sumador.html --public-url ./"
+        "test": "jest --watch --env='jsdom'",
+        "test-once": "jest  --env='jsdom'",
+        "start": "parcel codebreaker.html",
+        "build": "parcel build codebreaker.html --public-url ./"
     },
     "dependencies": {
       "@babel/core": "^7.15.4",
