@@ -2,7 +2,7 @@ import fs from "fs";
 
 describe("CodeBreaker", () => {
     function codigo(nro) {
-        return document.querySelector("#codigo").innerHTML = nro
+        return document.querySelector("#codigo").value = nro
     }
     function adivinar(nro) {
         document.querySelector("#numero").value = nro;
