@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "test-once": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./",
